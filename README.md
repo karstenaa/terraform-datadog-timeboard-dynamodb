@@ -12,7 +12,7 @@ Usage
 module "timeboard_dynamodb_beical-app" {
   source         = "github.com/traveloka/terraform-datadog-timeboard-dynamodb.git?ref=0.1.0"
   product_domain = "${var.product_domain}"
-  table_name        = "${var.tablename}"
+  table_name     = "${var.tablename}"
 }
 ```
 
